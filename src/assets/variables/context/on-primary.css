@@ -64,12 +64,12 @@
     --sys-feedback-primary-solid-fg: var(--static-color-primary-550);
     --sys-feedback-primary-faded-bg: var(--static-color-primary-alpha-src450-24);
     --sys-feedback-primary-faded-fg: var(--static-color-gray-0);
-    --sys-surface-main: var(--static-color-primary-750);
-    --sys-surface-main-overlay: var(--static-color-primary-700);
-    --sys-surface-main-muted: var(--static-color-primary-850);
-    --sys-surface-container: var(--static-color-primary-600);
-    --sys-surface-container-overlay: var(--static-color-primary-650);
-    --sys-surface-container-muted: var(--static-color-primary-800);
+    --sys-surface-main: var(--static-color-primary-800);
+    --sys-surface-main-overlay: var(--static-color-primary-750);
+    --sys-surface-main-muted: var(--static-color-primary-900);
+    --sys-surface-container: var(--static-color-primary-650);
+    --sys-surface-container-overlay: var(--static-color-primary-700);
+    --sys-surface-container-muted: var(--static-color-primary-850);
     --sys-choice-unchecked-default-bg: var(--static-color-overlay-light-0);
     --sys-button-primary-faded-border-active: var(--static-color-primary-alpha-src500-56);
     --sys-button-primary-solid-border-active: var(--static-color-gray-0);
@@ -160,7 +160,7 @@
     --sys-button-info-outline-border-active: var(--static-color-blue-450);
     --sys-button-info-outline-border-focus: var(--static-color-blue-450);
     --sys-button-info-outline-fg: var(--static-color-gray-0);
-    --sys-surface-border-on-main-100: var(--static-color-primary-800);
+    --sys-surface-border-on-main-100: var(--static-color-primary-850);
     --sys-button-default-solid-bg: var(--static-color-gray-200);
     --sys-button-default-solid-bg-hover: var(--static-color-gray-150);
     --sys-button-default-solid-bg-active: var(--static-color-gray-100);
@@ -643,5 +643,5 @@
     --sys-slider-step-active-disabled: var(--static-color-overlay-light-300);
     --sys-slider-start-end-values: var(--sys-text-strong);
     --sys-slider-icon-disabled: var(--static-color-primary-400);
-    
+
 }

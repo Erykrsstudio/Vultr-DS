@@ -18,9 +18,9 @@
     --sys-button-primary-outline-fg: var(--ref-text-on-primary-faded);
     --sys-button-primary-faded-bg: var(--ref-color-primary-alpha-2);
     --sys-button-primary-faded-fg: var(--ref-text-on-primary-faded);
-    --sys-button-primary-solid-bg-hover: var(--ref-color-primary-550);
+    --sys-button-primary-solid-bg-hover: var(--ref-color-primary-600);
     --sys-button-primary-faded-bg-hover: var(--ref-color-primary-alpha-3);
-    --sys-button-primary-solid-bg-active: var(--ref-color-primary-600);
+    --sys-button-primary-solid-bg-active: var(--ref-color-primary-650);
     --sys-button-primary-solid-bg-focus: var(--ref-color-primary-500);
     --sys-button-primary-faded-bg-active: var(--ref-color-primary-alpha-4);
     --sys-button-primary-faded-bg-focus: var(--ref-color-primary-alpha-2);
@@ -418,7 +418,7 @@
     --sys-input-default-bg-disabled: var(--sys-button-disabled-bg);
     --sys-input-default-fg: var(--ref-text-faded);
     --sys-input-default-border-disabled: var(--sys-button-disabled-outline-border);
-    --sys-input-default-bg: var(--ref-color-gray-0);
+    --sys-input-default-bg: var(--ref-color-gray-100);
     --sys-input-default-fg-active: var(--sys-text-primary);
     --sys-input-default-fg-filled: var(--ref-text-strong);
     --sys-accordion-group-body-text: var(--ref-text-default);
@@ -646,5 +646,5 @@
     --sys-slider-step-active-disabled: var(--ref-color-gray-400);
     --sys-slider-start-end-values: var(--ref-text-strong);
     --sys-slider-icon-disabled: var(--ref-color-gray-300);
-    
-}    
+
+}
