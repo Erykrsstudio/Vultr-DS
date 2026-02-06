@@ -1,0 +1,31 @@
+:root {
+    --static-space-0x: 0px;
+    --static-space-0-25x: 2px;
+    --static-space-0-5x: 4px;
+    --static-space-1x: 8px;
+    --static-space-1-5x: 12px;
+    --static-space-2x: 16px;
+    --static-space-2-5x: 20px;
+    --static-space-3x: 24px;
+    --static-space-3-5x: 28px;
+    --static-space-4x: 32px;
+    --static-space-5x: 40px;
+    --static-space-6x: 48px;
+    --static-space-7x: 56px;
+    --static-space-8x: 64px;
+    --static-space-9x: 72px;
+    --static-space-10x: 80px;
+    --static-space-11x: 88px;
+    --static-space-12x: 96px;
+    --static-space-13x: 104px;
+    --static-space-14x: 112px;
+    --static-space-15x: 120px;
+    --static-space-16x: 128px;
+    --static-space-17x: 136px;
+    --static-space-18x: 144px;
+    --static-space-19x: 152px;
+    --static-space-20x: 160px;
+    --static-space-1-25x: 10px;
+    --static-space-0-75x: 6px;
+         
+}

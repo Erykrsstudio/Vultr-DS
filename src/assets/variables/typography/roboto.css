@@ -1,0 +1,12 @@
+:root{
+    --static-typography-font-family: "Roboto";
+    --static-typography-font-weight-black: 900;
+    --static-typography-font-weight-bold: 700;
+    --static-typography-font-weight-semibold:600;
+    --static-typography-font-weight-medium: 500;
+    --static-typography-font-weight-regular: 400;
+    --static-typography-font-weight-light: 300;
+    --static-typography-font-weight-italic: "Italic";
+    --static-typography-font-weight-light-italic: "Light Italic";
+    --static-typography-letter-spacing: 0px;
+}

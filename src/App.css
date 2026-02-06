@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+  font-family: "Roboto", sans-serif;
+  font-weight:var(--sys-font-weight-regular);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+.site{
+    height: 100%;
+}
+
+/* Section Block */
+.section{
+    width: 100%;
+    background-color: var(--sys-surface-main);
+    padding-block: var(--sys-layout-padding-4xl);
+}
+
+.section__container{
+    margin-right: auto;
+    margin-left: auto;
+    max-width: var(--sys-layout-container-max-width);
+    padding-inline: var(--sys-layout-container-padding-horizontal);
+    position: relative;
+    z-index: 1;
+}
+
+.section--main .section__container{
+    display: flex;
+    flex-direction: column;
+    gap: var(--sys-layout-gap-lg);
+}
+
+.section--main .section__illustration{
+    position: absolute ;
+    right: -598px;
+    top: -56px;
+}
+
+.section--main .section__illustration img{
+    width: 1676px;
+    height: 1664px;
+}
+
+.section__row{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px;
+}
+
+.section__header{
+    grid-column: span 2;
+    max-width: 640px;
+    display: flex;
+    flex-direction: column;
+    gap: var(--sys-layout-gap-base);
+}
+.section__description{
+    font-size: var(--sys-text-p-3xl-font-size);
+    line-height: var(--sys-text-p-3xl-line-height);
+    letter-spacing: var(--sys-text-p-3xl-letter-spacing);
+    font-weight: var(--sys-text-p-3xl-font-weight);
+    color: var(--sys-text-strong);
+}
+
+.section__layout--first .section__panel{
+    grid-column: span 1;
+}
+
+
+.section__form-content{
+    display: flex;
+    flex-direction: column;
+    gap: var(--sys-layout-gap-base);
+}
+
+.section__form-content button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--sys-layout-gap-sm);
+    cursor: pointer;
+    font-weight: var(--sys-font-weight-medium);
+}
+
+.section__panel .section__checkbox{
+    display: flex;
+    align-items: center;
+    gap: var(--sys-checkbox-base-gap);
+}
+
+
+
+/* Link Block */
+a{
+    transition: all 0.3s ease;
+    text-decoration: unset;
+    color: var(--sys-text-primary);
+    font-weight: var(--sys-font-weight-medium);
+    cursor: pointer;
+}
+
+.link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--sys-button-xl-gap);
+    color: var(--sys-button-primary-ghost-fg);
+    font-size: var(--sys-button-xl-font-size);
+    font-weight: var(--sys-button-xl-font-weight);
+    line-height: var(--sys-button-xl-line-height);
+    letter-spacing: var(--sys-button-xl-letter-spacing);
+}
+
+
+/* Section Layout Second */
+.section__layout--second > .section__panel{
+    grid-column: span 1;
+}
+
+.section__layout--second .section__panel-container{
+    grid-column: span 2;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: var(--sys-layout-gap-lg);
+}
+
+
+.section__layout--second .section__panel-container .section__panel{
+    display: flex;
+    flex-direction: column;
+    padding: var(--sys-layout-padding-lg);
+    height: 304px;
+}
+
+.section__layout--second .section__panel-container .section__panel h6{
+    margin-bottom: var(--sys-text-h6-margin-bottom);
+    font-weight: var(--sys-font-weight-medium);
+}
+
+.section__layout--second .section__panel-container .section__panel h4{
+    flex-grow: 1;
+}
+
+.section__panel--announcement{
+    gap: var(--sys-layout-gap-base);
+}
+
+/* Features Block */
+.section__features{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: var(--sys-layout-gap-lg);
+}
+
+.section--generation .section__content{
+    display: flex;
+    flex-direction: column;
+    gap: var(--sys-layout-gap-lg);
+}
+
+/* Text Modifiers */
+.text--primary {
+    color: var(--sys-text-primary);
+}
+.text--success {
+    color: var(--sys-text-success);
+}
+.text--warning {
+    color: var(--sys-text-warning);
+}
+.text--danger {
+    color: var(--sys-text-danger);
+}
+.text--savings {
+    color: var(--sys-text-savings);
+}
+.text--white{
+    color: var(--sys-text-white);
+}
+.text--faded{
+    color: var(--sys-text-faded);
+}
+.text--strong-color{
+    color: var(--sys-text-strong);
+}
+
+/* Typography */
+h1,h2,h3,h4,h5,h6{
+    color: var(--sys-text-heading);
+}
+h1{
+    font-size: var(--sys-text-h1-font-size);
+    line-height: var(--sys-text-h1-line-height);
+    letter-spacing: var(--sys-text-h1-letter-spacing);
+    font-weight:var(--sys-text-h1-font-weight);
+}
+
+h2 {
+    font-size: var(--sys-text-h2-font-size);
+    line-height: var(--sys-text-h2-line-height);
+    letter-spacing: var(--sys-text-h2-letter-spacing);
+    font-weight:var(--sys-text-h2-font-weight);
+    margin-bottom: var(--sys-text-h2-margin-bottom);
+}
+
+h3 {
+    font-size: var(--sys-text-h3-font-size);
+    line-height: var(--sys-text-h3-line-height);
+    letter-spacing: var(--sys-text-h3-letter-spacing);
+    font-weight:var(--sys-text-h3-font-weight);
+}
+h4 {
+    font-size: var(--sys-text-h4-font-size);
+    line-height: var(--sys-text-h4-line-height);
+    letter-spacing: var(--sys-text-h4-letter-spacing);
+    margin-bottom: var(--sys-text-h4-margin-bottom);
+    font-weight:var(--sys-text-h4-font-weight);
+}
+h6 {
+    font-size: var(--sys-text-h6-font-size);
+    line-height: var(--sys-text-h6-line-height);
+    letter-spacing: var(--sys-text-h6-letter-spacing);
+    font-weight:var(--sys-text-h5-font-weight);
+    margin-bottom: var(--sys-text-h6-margin-bottom);
+}
+.p-3xl{
+    font-size: var(--sys-text-p-3xl-font-size);
+    line-height: var(--sys-text-p-3xl-line-height);
+    letter-spacing: var(--sys-text-p-3xl-letter-spacing);
+    font-weight:var(--sys-text-p-3xl-font-weight);
+}
+.p-2xl {
+    font-size: var(--sys-text-p-2xl-font-size);
+    line-height: var(--sys-text-p-2xl-line-height);
+    letter-spacing: var(--sys-text-p-2xl-letter-spacing);
+    font-weight:var(--sys-text-p-2xl-font-weight);
+}
